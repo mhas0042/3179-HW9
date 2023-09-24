@@ -51,7 +51,7 @@
                             "lookup": "properties.NAME",
                             "from": {
                                 "data": {
-                                    "url": "2015.csv"
+                                    "url": "2015Clean.csv"
                                 },
                                 "key": "Country",
                                 "fields": ["Happiness Score"]
@@ -65,7 +65,7 @@
                             "type": "quantitative",
                             "scale": {
                                 "type": "threshold",
-                                "domain": [1, 5, 10],
+                                "domain": [0, 0.5, 1],
                                 "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
                             }
                         },
